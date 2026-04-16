@@ -213,7 +213,9 @@ textarea {
 }
 
 .brand img {
-  width: 112px;
+  width: 220px;
+  height: auto;
+  max-height: 40px;
   object-fit: contain;
 }
 
@@ -1002,7 +1004,8 @@ body.menu-open {
   }
 
   .brand img {
-    width: 88px;
+    width: 165px;
+    max-height: 32px;
   }
 
   .hero-section {
