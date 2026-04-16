@@ -427,6 +427,9 @@ textarea {
 .company-carousel {
   position: relative;
   overflow: hidden;
+  width: calc(100vw - 56px);
+  max-width: 1600px;
+  margin-left: calc(50% - 50vw + 28px);
   margin-top: 16px;
   padding: 8px 0 18px;
 }
@@ -1032,6 +1035,11 @@ body.menu-open {
 
   .hero-actions .button {
     width: 100%;
+  }
+
+  .company-carousel {
+    width: calc(100vw - 28px);
+    margin-left: calc(50% - 50vw + 14px);
   }
 
   .company-card {
